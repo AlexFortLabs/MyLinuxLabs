@@ -1,0 +1,3 @@
+# Ändert den Ordner, Inhalt und alle Unterordner von „/var/www“ auf den Besitzer und Gruppe“www-data“
+chown -R www-data:www-data /var/www
+

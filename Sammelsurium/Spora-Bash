@@ -1,3 +1,8 @@
 # Ändert den Ordner, Inhalt und alle Unterordner von „/var/www“ auf den Besitzer und Gruppe“www-data“
 chown -R www-data:www-data /var/www
 
+# User Add/Del
+useradd -g users -- TESTER
+userdel -r TESTER
+
+pi2 noroot/rp!i..S
